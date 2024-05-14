@@ -1,0 +1,57 @@
+header {
+    font-size: 13px;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.side-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.side-menu ul li {
+    margin-right: 15px;
+}
+
+.side-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* .dotted-menu-li {
+
+} */
+
+.dotted-menu {
+    width: 17px;
+    height: 17px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(3, 5px);
+    gap: 1px;
+    margin: 0 10px 0 15px;
+}
+
+.dotted-menu:hover {
+    cursor: pointer;
+}
+
+.dotted-menu .item {
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.profile-photo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url('../images/profile.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-photo:hover {
+    cursor: pointer;
+}

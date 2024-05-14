@@ -1,0 +1,42 @@
+footer {
+    background-color: #171717;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer1 {
+    padding: 15px 0 15px 30px;
+    border-bottom: 1px solid #444;
+} 
+
+.footer2 .nav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-footer .ul1 {
+    margin-left: 20px;
+}
+
+.nav-footer .ul2 {
+    margin-right: 20px;
+}
+
+
+.nav-footer ul {
+    display: flex;
+    margin: 15px;
+}
+
+.nav-footer ul li {
+    margin: 0 15px 0 15px;
+}
+
+.nav-footer ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

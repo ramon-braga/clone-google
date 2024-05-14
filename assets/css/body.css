@@ -1,0 +1,92 @@
+body {
+    background-color: #202124;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 60px - 95px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: -150px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 6rem;
+    font-weight: lighter;
+}
+
+.input_search {
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #444;
+    display: flex;
+    align-items: center;
+}
+
+.img_icon {
+    cursor: pointer;
+}
+
+.input_search:hover {
+    box-shadow: 1px 1px 10px #444;
+}
+
+.input_search input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.input_search img:last-child {
+    margin-right: -40px;
+}
+
+.container .buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #303134;
+    outline: none;
+    border: 1px solid #303134;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    border: 1px solid #ccc
+}
+
+.container .info {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.container .info a {
+    color: #84aefa;
+}
+
+.container .info a:hover {
+    text-decoration: underline;
+}
